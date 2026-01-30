@@ -67,6 +67,12 @@ h2 {
   gap: 1.5rem;
 }
 
+#project h2 {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
 .project-card {
   flex: 0 1 300px;
   background: #f9f9f9;
