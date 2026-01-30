@@ -3,6 +3,17 @@ html {
   scroll-behavior: smooth;
 }
 
+section{
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+section h2{
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
 /*Body styling*/
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -58,19 +69,20 @@ h2 {
 
 /* Project Card */
 #project {
-  max-width: 1000px;
   margin: 3rem auto;
   padding: 0 1rem;
+}
+
+#project h2 {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.project-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
-}
-
-#project h2 {
-  width: 100%;
-  text-align: left;
-  margin-bottom: 2rem;
 }
 
 .project-card {
@@ -115,7 +127,6 @@ h2 {
 
 /* Contact Section */
 #contact {
-  max-width: 800px;
   margin: 3rem auto;
   padding: 0 1rem;
 }
