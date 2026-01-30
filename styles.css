@@ -166,3 +166,33 @@ footer {
   color: #fff;
   margin-top: 3rem;
 }
+
+/* Responsive Media Query */
+@media (max-width: 768px){
+  /* Making the project cards full width on smaller screens */
+  .project-card{
+    flex: 1 1 100%;
+  }
+
+  /*Reducing padding in sections */
+  section {
+    padding: 1rem;
+  }
+
+  /* Adjusting header text size */
+  header h1{
+    font-size: 2rem;
+  }
+
+  /* Stacking nav links vertically if needed */
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  nav a {
+    margin: 0.5rem;
+  }
+}
