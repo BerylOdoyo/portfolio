@@ -10,8 +10,12 @@ section{
 }
 
 section h2{
+  font-size: 1.8rem;
   text-align: left;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #8B4513;
+  color: #fff;
 }
 
 /*Body styling*/
